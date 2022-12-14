@@ -11,20 +11,18 @@ body {
 .header-link {
   background: #ffffff;
 }
+.nav-link:hover, .nav-link:focus
 .hedder-link-log {
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
-  color: #2196f3;
+  line-height: calc(31 / 26);
+ letter-spacing: 0.03em;
+ color: #2196f3;
 }
 .header-nav-links {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
   color: #2196f3;
@@ -32,7 +30,7 @@ body {
 .header-nav-linkp {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
   color: #212121;
@@ -40,7 +38,7 @@ body {
 .header-nav-linkc {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
   color: #212121;
@@ -48,7 +46,7 @@ body {
 .header-link-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
   color: #2196f3;
@@ -56,18 +54,19 @@ body {
 .header-link-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
   color: #757575;
 }
+.nav-link:hover:focus {color: #2196F3;}
 .service {
   background: #2f303a;
 }
 .service-voice {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: calc(60 / 44);
   /* or 136% */
 
   text-align: center;
@@ -85,7 +84,7 @@ body {
 .service-act-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: calc (30 / 16);
   display: flex;
   align-items: center;
   text-align: center;
@@ -93,10 +92,11 @@ body {
   color: #ffffff;
   font-family: inherit;
 }
+.nav-link{cursor: pointer}
 .busines-one {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -105,7 +105,7 @@ body {
 .busines-one-det {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -113,7 +113,7 @@ body {
 .busines-two {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -122,26 +122,24 @@ body {
 .busines-two-det {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24 / 14);
   /* or 171% */
 
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .busines-tree {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
 }
 .busines-tree-det {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24 / 14);
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -151,7 +149,7 @@ body {
 .busines-four {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -160,7 +158,7 @@ body {
 .busines-four-det {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24 / 14);
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -170,7 +168,7 @@ body {
 .img-skr {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -192,8 +190,60 @@ body {
 .team-info {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;}
+  .team-spec{font-weight: 500;
+font-size: 16px;
+line-height: calc(19/16);
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.team-spec-area {font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;}
+.footer-link-log{font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.footer-addres-link{font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.footer-mail{font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);}
+.footer-tel{font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-link{background: #2F303A;}
